@@ -41,6 +41,6 @@ def load_and_process(csv1,csv2):
             how="outer",
             on='Title')
         .assign(**{'Worldwide Popularity': lambda x: round(((((x['World Sales (in $)']/x['World Sales (in $)'].max())*100)/2) + (x['Average Rating']/2)),1)})
-        df3.dropna()
+        .dropna()
     )
     return df3
