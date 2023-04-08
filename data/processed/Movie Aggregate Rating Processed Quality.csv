@@ -1,0 +1,451 @@
+,Title,Imdb,Letterboxd,Imdb Sample Size,RYM,RYM Sample Size,Letterboxd Sample Size,Release Year,Weighted Rating,Quality
+0,Star Wars: Episode VII - The Force Awakens ,7.8,6.82,936432.0,6.06,7496.0,802884.0,2015,6.8933333333333335,Good
+1,Avengers: Endgame ,8.4,7.84,1143197.0,6.5,5091.0,1131629.0,2019,7.580000000000001,Good
+2,Avatar ,7.9,7.06,1315981.0,5.42,7624.0,814160.0,2009,6.793333333333333,Good
+3,Black Panther ,7.3,7.48,781423.0,5.94,4535.0,1112607.0,2018,6.906666666666666,Good
+4,Avengers: Infinity War ,8.4,8.0,1091599.0,6.86,5540.0,1180128.0,2018,7.753333333333334,Good
+5,Spider-Man: No Way Home ,8.2,8.04,766288.0,6.6,3337.0,1200916.0,2021,7.613333333333332,Good
+6,Titanic ,7.9,7.56,1186039.0,5.74,6316.0,738790.0,1997,7.066666666666666,Good
+7,Jurassic World ,6.9,6.04,648341.0,4.9,3457.0,466909.0,2015,5.946666666666666,Average
+8,The Avengers ,8.0,7.36,1398172.0,6.08,6722.0,879188.0,2012,7.146666666666667,Good
+9,Star Wars: Episode VIII - The Last Jedi ,6.9,6.18,637770.0,5.58,5773.0,711229.0,2017,6.22,Average
+10,Incredibles 2 ,7.6,6.98,301885.0,6.32,3214.0,566022.0,2018,6.966666666666666,Good
+11,The Lion King ,6.8,5.68,248660.0,4.32,1026.0,260106.0,2019,5.6000000000000005,Average
+12,The Dark Knight ,9.0,8.9,2669451.0,7.66,13486.0,1317448.0,2008,8.520000000000001,Great
+13,Rogue One: A Star Wars Story ,7.8,7.34,645886.0,6.26,5403.0,647429.0,2016,7.133333333333333,Good
+14,Star Wars: Episode IX - The Rise of Skywalker ,6.5,5.04,456913.0,4.34,3846.0,590615.0,2019,5.293333333333333,Bad
+15,Beauty and the Beast ,7.1,6.24,313798.0,4.88,1054.0,287806.0,2017,6.073333333333333,Average
+16,Finding Dory ,7.3,6.58,280878.0,6.08,2450.0,393528.0,2016,6.653333333333333,Good
+17,Frozen II ,6.8,6.46,176606.0,5.28,859.0,283982.0,2019,6.18,Average
+18,Star Wars: Episode I - The Phantom Menace ,6.5,5.6,812099.0,4.68,7992.0,561469.0,1999,5.593333333333334,Average
+19,Star Wars: Episode IV - A New Hope ,8.6,8.4,1372531.0,7.76,11238.0,835545.0,1977,8.253333333333332,Great
+20,Avengers: Age of Ultron ,7.3,6.28,870468.0,5.24,4368.0,712106.0,2015,6.273333333333333,Average
+21,The Dark Knight Rises ,8.4,7.4,171499.0,6.3,7997.0,719277.0,2012,7.366666666666667,Good
+22,Shrek 2 ,7.3,7.9,471016.0,6.24,4945.0,499360.0,2004,7.146666666666666,Good
+23,E.T. the Extra-Terrestrial ,7.9,7.68,414849.0,6.48,4911.0,433052.0,1982,7.353333333333334,Good
+24,Toy Story 4 ,7.7,7.04,256797.0,6.68,3062.0,478571.0,2019,7.14,Good
+25,Captain Marvel ,6.8,5.82,569852.0,5.32,2601.0,705606.0,2019,5.98,Average
+26,The Hunger Games: Catching Fire ,7.5,7.26,673534.0,5.88,2765.0,478660.0,2013,6.88,Good
+27,Pirates of the Caribbean: Dead Man's Chest ,7.3,7.04,728383.0,5.6,4043.0,354813.0,2006,6.646666666666666,Good
+28,The Lion King ,8.5,8.38,1070179.0,7.32,6248.0,663352.0,1994,8.066666666666668,Great
+29,Jurassic World: Fallen Kingdom ,6.1,5.26,322653.0,4.16,1522.0,293544.0,2018,5.173333333333333,Bad
+30,Toy Story 3 ,8.3,7.94,844854.0,7.54,7923.0,587538.0,2010,7.926666666666667,Good
+31,Wonder Woman ,7.4,6.76,666589.0,5.62,2739.0,597750.0,2017,6.593333333333334,Good
+32,Iron Man 3 ,7.1,6.18,859955.0,5.5,3833.0,600365.0,2013,6.260000000000001,Average
+33,Captain America: Civil War ,7.8,7.24,799412.0,6.2,4063.0,819586.0,2016,7.080000000000001,Good
+34,The Hunger Games ,7.2,7.1,929487.0,5.38,4218.0,634787.0,2012,6.56,Good
+35,Spider-Man ,7.4,7.52,827765.0,6.26,6932.0,741777.0,2002,7.06,Good
+36,Jumanji: Welcome to the Jungle ,6.9,6.28,389569.0,5.44,1521.0,373962.0,2017,6.206666666666667,Average
+37,Jurassic Park ,8.2,8.2,1000525.0,7.06,7676.0,716364.0,1993,7.819999999999999,Good
+38,Transformers: Revenge of the Fallen ,5.9,4.58,411707.0,3.1,2634.0,152064.0,2009,4.526666666666666,Bad
+39,Frozen ,7.4,6.76,633038.0,5.54,3457.0,529550.0,2013,6.566666666666667,Good
+40,Spider-Man: Far from Home ,7.4,6.96,504297.0,6.1,3337.0,876127.0,2019,6.82,Good
+41,Guardians of the Galaxy Vol. 2 ,7.6,7.08,692791.0,6.42,4159.0,801404.0,2017,7.033333333333334,Good
+42,Harry Potter and the Deathly Hallows: Part 2 ,8.1,7.88,887796.0,6.06,4518.0,622770.0,2011,7.346666666666667,Good
+43,Finding Nemo ,8.2,8.08,1054185.0,7.1,6903.0,741803.0,2003,7.793333333333333,Good
+44,Star Wars: Episode III - Revenge of the Sith ,7.6,7.3,801296.0,5.96,7707.0,603325.0,2005,6.953333333333333,Good
+45,The Lord of the Rings: The Return of the King ,9.0,8.86,1863879.0,7.82,8890.0,681824.0,2003,8.56,Great
+46,Spider-Man 2 ,7.4,7.74,663070.0,6.62,6295.0,670797.0,2004,7.253333333333333,Good
+47,The Passion of the Christ ,7.2,6.44,234484.0,5.0,2088.0,64840.0,2004,6.213333333333334,Average
+48,The Secret Life of Pets ,6.5,5.6,206059.0,5.02,1032.0,156504.0,2016,5.706666666666666,Average
+49,Despicable Me 2 ,7.3,6.08,,5.26,,,2013,6.213333333333334,Average
+50,The Jungle Book ,7.4,6.44,,5.9,,,2016,6.580000000000001,Good
+51,Deadpool ,8.0,7.4,,6.1,,,2016,7.166666666666667,Good
+52,Inside Out ,8.2,7.72,,7.28,,,2015,7.733333333333333,Good
+53,Aladdin ,6.9,6.1,,4.92,,,2019,5.973333333333334,Average
+54,Furious 7 ,7.1,6.44,,5.36,,,2015,6.300000000000001,Average
+55,Transformers: Dark of the Moon ,6.2,4.92,,3.62,,,2011,4.913333333333333,Bad
+56,American Sniper ,7.3,6.44,,5.1,,,2014,6.28,Average
+57,The Lord of the Rings: The Two Towers ,8.8,8.66,,7.64,,,2002,8.366666666666667,Great
+58,Zootopia ,8.0,7.44,,6.88,,,2016,7.44,Good
+59,The Hunger Games: Mockingjay - Part 1 ,6.6,6.32,,4.98,,,2014,5.966666666666666,Average
+60,Spider-Man 3 ,6.3,5.98,,4.84,,,2007,5.706666666666667,Average
+61,Minions ,6.4,5.38,,4.18,,,2015,5.32,Bad
+62,Joker ,8.4,7.8,,6.98,,,2019,7.726666666666667,Good
+63,Aquaman ,6.8,5.84,,5.08,,,2018,5.906666666666666,Average
+64,Spider-Man: Homecoming ,7.4,7.14,,6.32,,,2017,6.953333333333333,Good
+65,Alice in Wonderland ,6.4,6.08,,4.42,,,2010,5.633333333333333,Average
+66,Guardians of the Galaxy ,8.0,7.6,,6.68,,,2014,7.426666666666667,Good
+67,Forrest Gump ,8.8,8.26,,7.14,,,1994,8.066666666666668,Great
+68,Batman v Superman: Dawn of Justice ,6.4,4.94,,4.18,,,2016,5.173333333333333,Bad
+69,It ,7.3,7.04,,6.08,,,2017,6.806666666666666,Good
+70,Suicide Squad ,5.9,4.24,,3.26,,,2016,4.466666666666667,Bad
+71,Deadpool 2 ,7.7,7.02,,6.22,,,2018,6.9799999999999995,Good
+72,Shrek the Third ,6.1,5.52,,4.32,,,2007,5.3133333333333335,Bad
+73,Jumanji: The Next Level ,6.7,5.96,,5.3,,,2019,5.986666666666667,Average
+74,Transformers ,7.0,5.98,,4.28,,,2007,5.753333333333334,Average
+75,Iron Man ,7.9,7.42,,6.32,,,2008,7.213333333333334,Good
+76,Harry Potter and the Sorcerer's Stone ,7.6,7.58,,5.94,,,2001,7.039999999999999,Good
+77,Indiana Jones and the Kingdom of the Crystal Skull ,6.2,5.16,,4.48,,,2008,5.28,Bad
+78,The Lord of the Rings: The Fellowship of the Ring ,8.8,8.66,,7.82,,,2001,8.426666666666668,Great
+79,Thor: Ragnarok ,7.9,7.7,,6.66,,,2017,7.420000000000001,Good
+80,Iron Man 2 ,6.9,5.84,,5.04,,,2010,5.926666666666667,Average
+81,Star Wars: Episode II - Attack of the Clones ,6.6,5.46,,4.5,,,2002,5.52,Average
+82,Pirates of the Caribbean: At World's End ,7.1,6.64,,5.12,,,2007,6.286666666666666,Average
+83,Star Wars: Episode VI - Return of the Jedi ,8.3,8.02,,7.3,,,1983,7.873333333333334,Good
+84,Independence Day ,7.0,6.56,,5.1,,,1996,6.22,Average
+85,Pirates of the Caribbean: The Curse of the Black Pearl ,8.1,7.74,,6.52,,,2003,7.453333333333333,Good
+86,Skyfall ,7.8,7.66,,6.64,,,2012,7.366666666666667,Good
+87,The Hobbit: An Unexpected Journey ,7.8,6.82,,6.02,,,2012,6.88,Good
+88,Harry Potter and the Half-Blood Prince ,7.6,7.34,,5.76,,,2009,6.8999999999999995,Good
+89,The Twilight Saga: Eclipse ,5.0,5.28,,3.42,,,2010,4.566666666666666,Bad
+90,The Twilight Saga: New Moon ,4.7,5.26,,3.18,,,2009,4.38,Bad
+91,Harry Potter and the Deathly Hallows: Part 1 ,7.7,7.42,,6.06,,,2010,7.06,Good
+92,The Sixth Sense ,8.2,7.94,,6.86,,,1999,7.666666666666667,Good
+93,Up ,8.3,8.18,,7.44,,,2009,7.973333333333334,Good
+94,Star Wars: Episode V - The Empire Strikes Back ,8.7,8.78,,8.18,,,1980,8.553333333333333,Great
+95,Inception ,8.8,8.36,,7.18,,,2010,8.113333333333333,Great
+96,Harry Potter and the Order of the Phoenix ,7.5,7.34,,5.7,,,2007,6.846666666666667,Good
+97,The Twilight Saga: Breaking Dawn - Part 2 ,5.5,5.66,,3.54,,,2012,4.8999999999999995,Bad
+98,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe ",6.9,6.88,,5.12,,,2005,6.3,Average
+99,Man of Steel ,7.1,5.94,,4.76,,,2013,5.933333333333334,Average
+100,"Monsters, Inc. ",8.1,8.14,,7.28,,,2001,7.84,Good
+101,Harry Potter and the Goblet of Fire ,7.7,7.62,,5.94,,,2005,7.086666666666667,Good
+102,Home Alone ,7.7,7.56,,6.3,,,1990,7.1866666666666665,Good
+103,The Hunger Games: Mockingjay - Part 2 ,6.5,6.44,,4.96,,,2015,5.966666666666668,Average
+104,The Matrix Reloaded ,7.2,6.62,,5.52,,,2003,6.446666666666666,Average
+105,The Twilight Saga: Breaking Dawn - Part 1 ,4.9,5.28,,3.14,,,2011,4.44,Bad
+106,Meet the Fockers ,6.3,5.64,,4.52,,,2004,5.486666666666667,Bad
+107,The Hangover ,7.7,7.04,,5.8,,,2009,6.846666666666667,Good
+108,Gravity ,7.7,6.96,,6.52,,,2013,7.06,Good
+109,The Grinch ,6.4,5.72,,4.96,,,2018,5.6933333333333325,Average
+110,Sing ,7.1,6.06,,4.68,,,2016,5.946666666666666,Average
+111,Monsters University ,7.2,6.66,,6.0,,,2013,6.62,Good
+112,Shrek ,7.9,8.08,,6.72,,,2001,7.566666666666667,Good
+113,Despicable Me 3 ,6.2,5.14,,4.52,,,2017,5.286666666666666,Bad
+114,Harry Potter and the Chamber of Secrets ,7.4,7.24,,5.76,,,2002,6.8,Good
+115,The Amazing Spider-Man ,6.9,6.52,,5.06,,,2012,6.16,Average
+116,The Incredibles ,8.0,8.14,,7.24,,,2004,7.793333333333334,Good
+117,Jaws ,8.1,7.96,,7.38,,,1975,7.8133333333333335,Good
+118,How the Grinch Stole Christmas ,6.3,6.72,,4.38,,,2000,5.8,Average
+119,Captain America: The Winter Soldier ,7.8,7.52,,6.5,,,2014,7.273333333333333,Good
+120,The Hobbit: The Desolation of Smaug ,7.8,6.7,,5.66,,,2013,6.72,Good
+121,The Lego Movie ,7.7,7.52,,7.08,,,2014,7.433333333333334,Good
+122,Star Trek ,7.9,7.16,,6.32,,,2009,7.126666666666668,Good
+123,I Am Legend ,7.2,6.64,,5.3,,,2007,6.38,Average
+124,The Blind Side ,7.6,6.58,,4.9,,,2009,6.359999999999999,Average
+125,The Hobbit: The Battle of the Five Armies ,7.4,6.3,,5.0,,,2014,6.233333333333333,Average
+126,The Hangover Part II ,6.5,5.64,,4.6,,,2011,5.579999999999999,Average
+127,Despicable Me ,7.6,6.92,,5.92,,,2010,6.813333333333333,Good
+128,Batman ,7.5,7.18,,6.7,,,1989,7.126666666666666,Good
+129,Night at the Museum ,6.4,6.38,,4.68,,,2006,5.82,Average
+130,Men in Black ,7.3,7.2,,6.06,,,1997,6.853333333333333,Good
+131,Harry Potter and the Prisoner of Azkaban ,7.9,8.2,,6.7,,,2004,7.6000000000000005,Good
+132,Moana ,7.6,7.52,,6.38,,,2016,7.166666666666667,Good
+133,Indiana Jones and the Raiders of the Lost Ark ,8.4,8.32,,7.62,,,1981,8.113333333333333,Great
+134,Toy Story 2 ,7.9,7.86,,7.24,,,1999,7.666666666666667,Good
+135,Transformers: Age of Extinction ,5.6,4.08,,3.1,,,2014,4.26,Bad
+136,Cars ,7.2,7.06,,5.48,,,2006,6.579999999999999,Good
+137,Ghostbusters ,7.8,7.58,,6.88,,,1984,7.419999999999999,Good
+138,Bruce Almighty ,6.8,6.28,,5.1,,,2003,6.06,Average
+139,Twister ,6.4,6.24,,4.72,,,1996,5.786666666666666,Average
+140,My Big Fat Greek Wedding ,6.6,6.74,,4.72,,,2002,6.0200000000000005,Average
+141,Maleficent ,6.9,6.4,,5.1,,,2014,6.133333333333333,Average
+142,Pirates of the Caribbean: On Stranger Tides ,6.6,5.54,,4.72,,,2011,5.62,Average
+143,Shrek Forever After ,6.3,5.72,,5.02,,,2010,5.68,Average
+144,Fast & Furious 6 ,7.0,6.18,,5.14,,,2013,6.1066666666666665,Average
+145,Brave ,7.1,6.66,,5.72,,,2012,6.493333333333333,Average
+146,Oz the Great and Powerful ,6.3,5.08,,4.86,,,2013,5.413333333333334,Bad
+147,X-Men: The Last Stand ,6.6,5.18,,4.66,,,2006,5.4799999999999995,Bad
+148,War of the Worlds ,6.5,6.42,,5.28,,,2005,6.066666666666667,Average
+149,Fantastic Beasts and Where to Find Them ,7.2,6.38,,5.5,,,2016,6.359999999999999,Average
+150,X-Men: Days of Future Past ,7.9,7.18,,6.58,,,2014,7.22,Good
+151,Cast Away ,7.8,7.6,,6.36,,,2000,7.253333333333333,Good
+152,The Exorcist ,8.1,7.98,,7.6,,,1973,7.8933333333333335,Good
+153,Doctor Strange ,7.5,7.02,,6.1,,,2016,6.873333333333332,Good
+154,The Lost World: Jurassic Park ,6.5,6.14,,5.18,,,1997,5.94,Average
+155,Justice League ,6.1,4.14,,3.74,,,2017,4.66,Bad
+156,Star Trek Into Darkness ,7.7,6.52,,5.8,,,2013,6.673333333333333,Good
+157,The Martian ,8.0,7.46,,6.42,,,2015,7.293333333333333,Good
+158,Signs ,6.8,6.82,,5.42,,,2002,6.346666666666667,Average
+159,Hancock ,6.4,5.42,,4.52,,,2008,5.446666666666666,Bad
+160,The Bourne Ultimatum ,8.0,7.26,,6.62,,,2007,7.293333333333334,Good
+161,Logan ,8.1,8.14,,7.24,,,2017,7.826666666666667,Good
+162,Rush Hour 2 ,6.6,6.46,,5.26,,,2001,6.1066666666666665,Average
+163,The Fate of the Furious ,6.6,5.62,,4.92,,,2017,5.713333333333334,Average
+164,Shang-Chi and the Legend of the Ten Rings ,7.4,7.24,,6.18,,,2021,6.94,Good
+165,WALL-E ,8.4,8.3,,7.8,,,2008,8.166666666666666,Great
+166,Big Hero 6 ,7.8,7.56,,6.3,,,2014,7.22,Good
+167,Mission: Impossible - Fallout ,7.7,7.74,,6.76,,,2018,7.400000000000001,Good
+168,National Treasure: Book of Secrets ,6.5,5.74,,4.52,,,2007,5.586666666666666,Average
+169,Alvin and the Chipmunks: The Squeakquel ,4.5,4.26,,2.46,,,2009,3.7399999999999998,Bad
+170,Mrs. Doubtfire ,7.1,7.12,,5.38,,,1993,6.533333333333334,Good
+171,Beauty and the Beast ,8.0,7.76,,6.82,,,1991,7.526666666666666,Good
+172,Ted ,6.9,5.86,,5.14,,,2012,5.966666666666666,Average
+173,King Kong ,7.2,6.66,,5.5,,,2005,6.453333333333333,Average
+174,Ghost ,7.1,6.86,,5.3,,,1990,6.419999999999999,Average
+175,How to Train Your Dragon ,8.1,7.9,,6.86,,,2010,7.62,Good
+176,The Da Vinci Code ,6.6,6.08,,4.36,,,2006,5.68,Average
+177,Aladdin ,8.0,7.74,,6.94,,,1992,7.56,Good
+178,Alvin and the Chipmunks ,5.2,4.9,,2.86,,,2007,4.32,Bad
+179,Saving Private Ryan ,8.6,8.34,,7.12,,,1998,8.02,Great
+180,Bohemian Rhapsody ,7.9,6.92,,5.44,,,2018,6.753333333333333,Good
+181,Ant-Man and the Wasp ,7.0,6.14,,5.56,,,2018,6.233333333333333,Average
+182,Madagascar 3: Europe's Most Wanted ,6.8,5.78,,4.96,,,2012,5.846666666666667,Average
+183,Kung Fu Panda ,7.6,7.44,,6.24,,,2008,7.093333333333334,Good
+184,Mission: Impossible II ,6.1,5.3,,4.4,,,2000,5.266666666666667,Bad
+185,A Star Is Born ,7.6,7.28,,6.0,,,2018,6.96,Good
+186,X2: X-Men United ,7.4,6.82,,6.18,,,2003,6.8,Good
+187,The Lorax ,6.4,6.0,,4.16,,,2012,5.5200000000000005,Average
+188,Solo: A Star Wars Story ,6.9,5.94,,5.6,,,2018,6.146666666666667,Average
+189,Venom ,6.6,5.8,,4.9,,,2018,5.766666666666667,Average
+190,Austin Powers in Goldmember ,6.2,5.88,,4.94,,,2002,5.673333333333333,Average
+191,Venom: Let There Be Carnage ,5.9,5.36,,4.74,,,2021,5.333333333333333,Bad
+192,It Chapter Two ,6.5,5.96,,4.9,,,2019,5.786666666666666,Average
+193,Back to the Future ,8.5,8.38,,7.72,,,1985,8.200000000000001,Great
+194,300 ,7.6,6.58,,5.24,,,2006,6.473333333333334,Average
+195,Coco ,8.4,8.34,,7.42,,,2017,8.053333333333333,Great
+196,Fast Five ,7.3,6.82,,5.6,,,2011,6.573333333333333,Good
+197,Mission: Impossible - Ghost Protocol ,7.4,7.3,,6.28,,,2011,6.993333333333333,Good
+198,Wedding Crashers ,7.0,6.26,,5.28,,,2005,6.18,Average
+199,Sherlock Holmes ,7.6,6.78,,5.92,,,2009,6.766666666666667,Good
+200,Dawn of the Planet of the Apes ,7.6,7.34,,6.38,,,2014,7.1066666666666665,Good
+201,Batman Begins ,8.2,7.56,,6.72,,,2005,7.493333333333332,Good
+202,Charlie and the Chocolate Factory ,6.7,6.4,,5.06,,,2005,6.053333333333334,Average
+203,Ratatouille ,8.1,8.36,,7.4,,,2007,7.953333333333333,Good
+204,Thor: The Dark World ,6.8,4.8,,4.62,,,2013,5.406666666666666,Bad
+205,Bad Boys for Life ,6.5,6.0,,5.1,,,2020,5.866666666666667,Average
+206,Austin Powers: The Spy Who Shagged Me ,6.6,6.44,,5.64,,,1999,6.226666666666667,Average
+207,Terminator 2: Judgment Day ,8.6,8.42,,7.92,,,1991,8.313333333333333,Great
+208,The Amazing Spider-Man 2 ,6.6,5.74,,4.2,,,2014,5.513333333333333,Average
+209,World War Z ,7.0,6.18,,5.02,,,2013,6.066666666666666,Average
+210,The Mummy Returns ,6.4,5.84,,4.46,,,2001,5.566666666666666,Average
+211,Armageddon ,6.7,5.98,,3.98,,,1998,5.553333333333334,Average
+212,Cinderella ,6.9,6.38,,5.2,,,2015,6.16,Average
+213,Ralph Breaks the Internet ,7.0,6.02,,5.46,,,2018,6.16,Average
+214,Tangled ,7.7,7.82,,6.42,,,2010,7.3133333333333335,Good
+215,Godzilla ,6.4,6.04,,5.3,,,2014,5.913333333333333,Average
+216,Superman Returns ,6.1,5.14,,4.5,,,2006,5.246666666666666,Bad
+217,Spectre ,6.8,6.2,,5.42,,,2015,6.14,Average
+218,Pearl Harbor ,6.2,5.34,,3.22,,,2001,4.92,Bad
+219,Monsters vs. Aliens ,6.4,5.44,,4.8,,,2009,5.546666666666667,Average
+220,Happy Feet ,6.4,5.74,,4.52,,,2006,5.553333333333334,Average
+221,Indiana Jones and the Last Crusade ,8.2,8.04,,7.36,,,1989,7.866666666666666,Good
+222,Ice Age: Dawn of the Dinosaurs ,6.9,6.08,,5.12,,,2009,6.033333333333334,Average
+223,Ice Age: The Meltdown ,6.8,6.02,,5.1,,,2006,5.973333333333333,Average
+224,Mission: Impossible - Rogue Nation ,7.4,7.26,,6.22,,,2015,6.960000000000001,Good
+225,Twilight ,5.3,5.9,,3.54,,,2008,4.913333333333333,Bad
+226,Men in Black II ,6.1,5.76,,4.34,,,2002,5.3999999999999995,Bad
+227,Madagascar ,6.9,6.78,,5.22,,,2005,6.300000000000001,Average
+228,22 Jump Street ,7.0,6.62,,5.94,,,2014,6.5200000000000005,Good
+229,Cars 2 ,6.2,5.14,,4.08,,,2011,5.140000000000001,Bad
+230,Teenage Mutant Ninja Turtles ,5.8,4.66,,3.76,,,2014,4.739999999999999,Bad
+231,Spider-Man: Into the Spider-Verse ,8.4,8.88,,7.86,,,2018,8.38,Great
+232,Grease ,7.2,6.96,,5.44,,,1978,6.533333333333334,Good
+233,Dunkirk ,7.8,7.56,,6.88,,,2017,7.413333333333333,Good
+234,Wreck-It Ralph ,7.7,7.16,,6.6,,,2012,7.153333333333333,Good
+235,A Quiet Place ,7.5,7.42,,6.12,,,2018,7.013333333333333,Good
+236,Interstellar ,8.6,8.56,,7.02,,,2014,8.06,Great
+237,The Polar Express ,6.6,6.34,,4.92,,,2004,5.953333333333333,Average
+238,Gladiator ,8.5,8.02,,6.58,,,2000,7.7,Good
+239,The Croods ,7.2,6.08,,5.32,,,2013,6.2,Average
+240,Sherlock Holmes: A Game of Shadows ,7.4,6.5,,5.56,,,2011,6.486666666666667,Average
+241,The Day After Tomorrow ,6.4,5.72,,4.3,,,2004,5.473333333333333,Bad
+242,Mr. & Mrs. Smith ,6.5,6.32,,4.38,,,2005,5.733333333333333,Average
+243,Snow White and the Seven Dwarfs ,7.6,6.9,,6.88,,,1937,7.126666666666668,Good
+244,Pitch Perfect 2 ,6.4,5.84,,4.68,,,2015,5.640000000000001,Average
+245,Dances with Wolves ,8.0,7.44,,6.84,,,1990,7.426666666666667,Good
+246,Batman Forever ,5.4,4.92,,4.26,,,1995,4.86,Bad
+247,The Fugitive ,7.8,7.64,,6.92,,,1993,7.453333333333333,Good
+248,Black Widow ,6.7,6.28,,5.24,,,2021,6.073333333333334,Average
+249,The Revenant ,8.0,7.64,,7.12,,,2015,7.586666666666667,Good
+250,Ocean's Eleven ,7.7,7.68,,6.46,,,2001,7.28,Good
+251,The Simpsons Movie ,7.3,6.74,,5.88,,,2007,6.640000000000001,Good
+252,What Women Want ,6.4,5.42,,4.34,,,2000,5.386666666666667,Bad
+253,The Perfect Storm ,6.5,6.02,,5.02,,,2000,5.846666666666667,Average
+254,Lincoln ,7.3,7.0,,6.24,,,2012,6.846666666666667,Good
+255,Liar Liar ,6.9,6.48,,5.54,,,1997,6.3066666666666675,Average
+256,Jurassic Park III ,5.9,5.44,,4.34,,,2001,5.226666666666667,Bad
+257,Thor ,7.0,5.74,,5.12,,,2011,5.953333333333333,Average
+258,Mission: Impossible ,7.1,7.08,,5.94,,,1996,6.706666666666666,Good
+259,Ant-Man ,7.3,6.64,,5.86,,,2015,6.6000000000000005,Good
+260,Planet of the Apes ,5.7,4.5,,3.84,,,2001,4.68,Bad
+261,Madagascar: Escape 2 Africa ,6.6,6.04,,4.92,,,2008,5.853333333333333,Average
+262,X-Men Origins: Wolverine ,6.5,4.7,,4.22,,,2009,5.14,Bad
+263,Indiana Jones and the Temple of Doom ,7.5,7.22,,6.54,,,1984,7.086666666666666,Good
+264,Hitch ,6.6,5.88,,4.38,,,2005,5.62,Average
+265,Men in Black 3 ,6.8,6.06,,5.42,,,2012,6.093333333333333,Average
+266,Pretty Woman ,7.1,7.2,,5.02,,,1990,6.44,Average
+267,Home ,6.6,5.48,,4.44,,,2015,5.506666666666667,Average
+268,Night at the Museum: Battle of the Smithsonian ,6.0,5.6,,4.18,,,2009,5.26,Bad
+269,Tootsie ,7.4,7.3,,6.48,,,1982,7.06,Good
+270,How to Train Your Dragon 2 ,7.8,7.36,,6.44,,,2014,7.2,Good
+271,Rise of the Planet of the Apes ,7.6,7.14,,6.22,,,2011,6.986666666666667,Good
+272,Captain America: The First Avenger ,6.9,6.64,,5.44,,,2011,6.326666666666667,Average
+273,Elf ,7.1,7.08,,5.6,,,2003,6.593333333333334,Good
+274,The Karate Kid ,6.2,5.78,,4.48,,,2010,5.486666666666667,Bad
+275,There's Something About Mary ,7.1,6.42,,5.82,,,1998,6.446666666666666,Average
+276,Ice Age ,7.5,6.92,,5.86,,,2002,6.760000000000001,Good
+277,The Bourne Supremacy ,7.7,7.06,,6.38,,,2004,7.046666666666667,Good
+278,The Lego Batman Movie ,7.3,7.5,,6.56,,,2017,7.12,Good
+279,Us ,6.8,7.48,,6.4,,,2019,6.8933333333333335,Good
+280,The Boss Baby ,6.3,5.1,,4.2,,,2017,5.2,Bad
+281,Crazy Rich Asians ,6.9,7.06,,5.24,,,2018,6.3999999999999995,Average
+282,The Greatest Showman ,7.5,6.76,,4.6,,,2017,6.286666666666666,Average
+283,Fast & Furious Presents: Hobbs & Shaw ,6.5,5.54,,4.96,,,2019,5.666666666666667,Average
+284,Apollo 13 ,7.7,7.46,,6.2,,,1995,7.12,Good
+285,Home Alone 2: Lost in New York ,6.8,6.8,,5.48,,,1992,6.36,Average
+286,National Treasure ,6.9,6.46,,5.12,,,2004,6.16,Average
+287,F9: The Fast Saga ,5.2,5.08,,4.84,,,2021,5.04,Bad
+288,Air Force One ,6.5,6.34,,4.92,,,1997,5.919999999999999,Average
+289,Rain Man ,8.0,7.56,,6.68,,,1988,7.413333333333333,Good
+290,Pirates of the Caribbean: Dead Men Tell No Tales ,6.5,5.32,,4.58,,,2017,5.466666666666666,Bad
+291,TRON: Legacy ,6.8,6.2,,5.36,,,2010,6.12,Average
+292,Mary Poppins Returns ,6.7,6.24,,5.42,,,2018,6.12,Average
+293,The Matrix ,8.7,8.3,,7.6,,,1999,8.2,Great
+294,True Grit ,7.6,7.46,,6.8,,,2010,7.286666666666666,Good
+295,Tarzan ,7.3,7.28,,5.74,,,1999,6.773333333333333,Good
+296,John Wick: Chapter 3 - Parabellum ,7.4,7.38,,6.58,,,2019,7.12,Good
+297,A Beautiful Mind ,8.2,7.54,,6.42,,,2001,7.386666666666667,Good
+298,Chicago ,7.2,7.6,,5.92,,,2002,6.906666666666666,Good
+299,The Help ,8.1,7.6,,6.2,,,2011,7.3,Good
+300,Hotel Transylvania 2 ,7.0,5.86,,4.8,,,2015,5.886666666666667,Average
+301,Hidden Figures ,7.8,7.68,,6.2,,,2016,7.226666666666667,Good
+302,Bridesmaids ,6.8,6.96,,5.78,,,2011,6.513333333333333,Good
+303,Quantum of Solace ,6.6,5.6,,5.14,,,2008,5.7799999999999985,Average
+304,Wild Hogs ,5.8,4.48,,3.86,,,2007,4.713333333333334,Bad
+305,Kong: Skull Island ,6.6,6.14,,5.62,,,2017,6.12,Average
+306,Three Men and a Baby ,6.1,5.98,,4.4,,,1987,5.493333333333333,Average
+307,Gone Girl ,8.1,8.16,,7.26,,,2014,7.84,Good
+308,Hotel Transylvania 3: Summer Vacation ,6.3,5.44,,4.54,,,2018,5.426666666666667,Bad
+309,Casino Royale ,8.0,7.88,,6.82,,,2006,7.566666666666666,Good
+310,Meet the Parents ,7.0,6.44,,5.62,,,2000,6.353333333333334,Average
+311,Fifty Shades of Grey ,4.2,3.68,,2.62,,,2015,3.5,Bad
+312,2012 ,5.8,4.82,,3.56,,,2009,4.726666666666667,Bad
+313,Robin Hood: Prince of Thieves ,6.9,6.3,,5.32,,,1991,6.173333333333333,Average
+314,Knives Out ,7.9,8.12,,7.24,,,2019,7.753333333333333,Good
+315,Kung Fu Panda 2 ,7.2,7.08,,6.0,,,2011,6.760000000000001,Good
+316,Hannibal ,6.8,6.42,,5.32,,,2001,6.18,Average
+317,Eternals ,6.3,5.94,,5.04,,,2021,5.760000000000001,Average
+318,Catch Me If You Can ,8.1,8.02,,6.9,,,2002,7.673333333333333,Good
+319,The Proposal ,6.7,6.72,,4.64,,,2009,6.02,Average
+320,The Pursuit of Happyness ,8.0,7.66,,5.9,,,2006,7.186666666666667,Good
+321,Big Daddy ,6.4,6.2,,4.8,,,1999,5.8,Average
+322,Clash of the Titans ,5.8,4.72,,3.92,,,2010,4.813333333333333,Bad
+323,The SpongeBob Movie: Sponge Out of Water ,6.0,5.32,,5.34,,,2015,5.553333333333334,Average
+324,Batman Returns ,7.1,7.16,,6.62,,,1992,6.96,Good
+325,Django Unchained ,8.4,8.4,,7.46,,,2012,8.086666666666666,Great
+326,A Bug's Life ,7.2,6.86,,6.08,,,1998,6.713333333333334,Good
+327,Jason Bourne ,6.6,5.74,,5.24,,,2016,5.859999999999999,Average
+328,Grown Ups ,5.9,5.66,,3.44,,,2010,5.0,Bad
+329,The Waterboy ,6.1,5.74,,4.72,,,1998,5.5200000000000005,Average
+330,Ice Age: Continental Drift ,6.5,5.34,,4.4,,,2012,5.413333333333334,Bad
+331,Straight Outta Compton ,7.8,7.4,,6.66,,,2015,7.286666666666666,Good
+332,Die Another Day ,6.1,4.84,,4.24,,,2002,5.06,Bad
+333,Shark Tale ,6.0,5.46,,3.68,,,2004,5.046666666666667,Bad
+334,How to Train Your Dragon: The Hidden World ,7.4,7.34,,6.2,,,2019,6.98,Good
+335,No Time to Die ,7.3,7.02,,6.12,,,2021,6.813333333333333,Good
+336,A Quiet Place Part II ,7.2,7.06,,6.0,,,2020,6.753333333333333,Good
+337,The Heat ,6.6,6.08,,5.3,,,2013,5.993333333333332,Average
+338,Fantastic Beasts: The Crimes of Grindelwald ,6.5,5.34,,4.44,,,2018,5.426666666666667,Bad
+339,Halloween ,6.5,6.58,,5.72,,,2018,6.266666666666666,Average
+340,1917 ,8.2,8.18,,7.08,,,2019,7.82,Good
+341,The Secret Life of Pets 2 ,6.4,5.4,,4.86,,,2019,5.553333333333335,Average
+342,Star Trek Beyond ,7.0,6.54,,5.76,,,2016,6.433333333333334,Average
+343,The Firm ,6.8,6.64,,5.84,,,1993,6.426666666666667,Average
+344,The Longest Yard ,6.4,5.84,,4.36,,,2005,5.533333333333334,Average
+345,X-Men ,7.3,6.64,,5.74,,,2000,6.56,Good
+346,Scary Movie ,6.2,6.0,,4.86,,,2000,5.686666666666667,Average
+347,Who Framed Roger Rabbit ,7.7,7.8,,7.26,,,1988,7.586666666666667,Good
+348,What Lies Beneath ,6.6,6.18,,5.16,,,2000,5.9799999999999995,Average
+349,X-Men: Apocalypse ,6.9,5.28,,4.98,,,2016,5.72,Average
+350,The Mummy ,7.1,6.94,,5.46,,,1999,6.5,Good
+351,Snow White and the Huntsman ,6.1,5.1,,4.62,,,2012,5.2733333333333325,Bad
+352,San Andreas ,6.1,5.02,,4.18,,,2015,5.1,Bad
+353,Fast & Furious ,6.5,5.72,,4.42,,,2009,5.546666666666667,Average
+354,Over the Hedge ,6.7,6.24,,5.26,,,2006,6.066666666666667,Average
+355,Fantastic Four ,5.7,4.82,,3.56,,,2005,4.693333333333333,Bad
+356,Horton Hears a Who! ,6.8,5.88,,5.12,,,2008,5.933333333333334,Average
+357,Mad Max: Fury Road ,8.1,8.26,,7.54,,,2015,7.966666666666666,Good
+358,Jerry Maguire ,7.3,7.06,,5.7,,,1996,6.6866666666666665,Good
+359,Trolls ,6.4,5.38,,4.32,,,2016,5.366666666666667,Bad
+360,Scooby-Doo ,5.2,6.5,,3.92,,,2002,5.206666666666667,Bad
+361,Cars 3 ,6.7,5.9,,5.24,,,2017,5.946666666666668,Average
+362,Sex and the City ,5.7,5.88,,3.52,,,2008,5.033333333333334,Bad
+363,Runaway Bride ,5.6,5.58,,3.54,,,1999,4.906666666666667,Bad
+364,La La Land ,8.0,7.98,,7.08,,,2016,7.686666666666667,Good
+365,Divergent ,6.6,5.7,,4.38,,,2014,5.56,Average
+366,We're the Millers ,7.0,6.46,,5.28,,,2013,6.246666666666667,Average
+367,Terminator 3: Rise of the Machines ,6.3,5.26,,4.8,,,2003,5.453333333333333,Bad
+368,Daddy's Home ,6.1,5.3,,4.6,,,2015,5.333333333333333,Bad
+369,G.I. Joe: The Rise of Cobra ,5.7,4.5,,3.74,,,2009,4.646666666666667,Bad
+370,Neighbors ,6.3,5.82,,5.1,,,2014,5.739999999999999,Average
+371,American Hustle ,7.2,6.56,,6.2,,,2013,6.653333333333333,Good
+372,Puss in Boots ,6.6,6.14,,5.36,,,2011,6.033333333333334,Average
+373,Sonic the Hedgehog ,6.5,5.86,,5.06,,,2020,5.806666666666666,Average
+374,Les Misérables ,7.5,7.08,,5.58,,,2012,6.72,Good
+375,Knocked Up ,6.9,6.2,,5.9,,,2007,6.333333333333333,Average
+376,As Good as It Gets ,7.7,7.1,,6.48,,,1997,7.093333333333334,Good
+377,Little Fockers ,5.5,4.7,,3.72,,,2010,4.640000000000001,Bad
+378,Megamind ,7.3,7.3,,6.36,,,2010,6.986666666666667,Good
+379,Hotel Transylvania ,7.0,6.42,,5.34,,,2012,6.253333333333333,Average
+380,Talladega Nights: The Ballad of Ricky Bobby ,6.6,6.58,,5.64,,,2006,6.273333333333333,Average
+381,Gran Torino ,8.1,7.44,,7.12,,,2008,7.553333333333334,Good
+382,Lethal Weapon 2 ,7.2,7.06,,6.36,,,1989,6.873333333333334,Good
+383,War for the Planet of the Apes ,7.4,7.36,,6.48,,,2017,7.080000000000001,Good
+384,X-Men: First Class ,7.7,7.1,,6.38,,,2011,7.06,Good
+385,Paul Blart: Mall Cop ,5.2,4.6,,3.6,,,2009,4.466666666666667,Bad
+386,True Lies ,7.3,7.06,,6.1,,,1994,6.819999999999999,Good
+387,Lilo & Stitch ,7.3,7.88,,6.42,,,2002,7.199999999999999,Good
+388,The Santa Clause ,6.5,6.26,,4.84,,,1994,5.866666666666667,Average
+389,The Meg ,5.6,4.82,,4.18,,,2018,4.866666666666666,Bad
+390,American Pie 2 ,6.4,5.72,,4.56,,,2001,5.56,Average
+391,Taken ,7.8,6.82,,5.92,,,2008,6.846666666666667,Good
+392,The Great Gatsby ,7.2,6.76,,5.22,,,2013,6.3933333333333335,Average
+393,"I, Robot ",7.1,6.14,,5.1,,,2004,6.113333333333333,Average
+394,Lethal Weapon 3 ,6.7,6.28,,5.66,,,1992,6.213333333333334,Average
+395,The Fast and the Furious ,6.8,6.52,,4.66,,,2001,5.993333333333333,Average
+396,Mamma Mia! ,6.5,7.5,,4.26,,,2008,6.086666666666666,Average
+397,Doctor Dolittle ,5.4,4.98,,5.16,,,1998,5.180000000000001,Bad
+398,Pokémon Detective Pikachu ,6.5,6.18,,5.46,,,2019,6.046666666666667,Average
+399,Rio ,6.9,6.42,,5.2,,,2011,6.173333333333335,Average
+400,Kung Fu Panda 3 ,7.1,6.46,,5.62,,,2016,6.3933333333333335,Average
+401,Juno ,7.5,7.48,,6.18,,,2007,7.053333333333334,Good
+402,Marley & Me ,7.0,6.54,,5.04,,,2008,6.1933333333333325,Average
+403,The Smurfs ,5.4,4.5,,3.1,,,2011,4.333333333333333,Bad
+404,Once Upon a Time... In Hollywood ,7.6,7.54,,7.26,,,2019,7.466666666666666,Good
+405,xXx ,5.8,4.98,,3.7,,,2002,4.826666666666667,Bad
+406,The Chronicles of Narnia: Prince Caspian ,6.5,6.04,,4.92,,,2008,5.82,Average
+407,Pocahontas ,6.7,6.4,,5.06,,,1995,6.053333333333334,Average
+408,A Few Good Men ,7.7,7.74,,6.34,,,1992,7.260000000000001,Good
+409,Slumdog Millionaire ,8.0,7.58,,6.18,,,2008,7.253333333333333,Good
+410,Rush Hour ,7.0,6.9,,5.74,,,1998,6.546666666666667,Good
+411,The Blair Witch Project ,6.5,6.66,,6.38,,,1999,6.513333333333333,Good
+412,Deep Impact ,6.2,5.68,,4.58,,,1998,5.486666666666667,Bad
+413,Shazam! ,7.0,6.52,,6.02,,,2019,6.513333333333333,Good
+414,Ocean's Eight ,6.3,6.68,,5.06,,,2018,6.013333333333333,Average
+415,Rush Hour 3 ,6.2,5.66,,4.34,,,2007,5.3999999999999995,Bad
+416,Stuart Little ,6.0,5.56,,3.98,,,1999,5.18,Bad
+417,Taken 2 ,6.2,5.12,,4.52,,,2012,5.28,Bad
+418,Sister Act ,6.5,6.76,,4.82,,,1992,6.026666666666666,Average
+419,The Matrix Revolutions ,6.7,6.06,,4.84,,,2003,5.866666666666666,Average
+420,The Santa Clause 2 ,5.7,5.34,,3.68,,,2002,4.906666666666667,Bad
+421,The King's Speech ,8.0,7.44,,6.68,,,2010,7.373333333333334,Good
+422,Cheaper by the Dozen ,5.9,5.86,,3.44,,,2003,5.066666666666666,Bad
+423,Bad Boys II ,6.6,6.22,,4.6,,,2003,5.806666666666666,Average
+424,Platoon ,8.1,7.72,,7.28,,,1986,7.699999999999999,Good
+425,21 Jump Street ,7.2,7.12,,6.3,,,2012,6.873333333333334,Good
+426,Good Will Hunting ,8.3,8.46,,7.12,,,1997,7.960000000000001,Good
+427,Split ,7.3,7.04,,6.08,,,2016,6.806666666666666,Good
+428,A Christmas Carol ,6.8,6.16,,5.44,,,2009,6.133333333333333,Average
+429,Dinosaur ,6.4,5.64,,4.38,,,2000,5.473333333333334,Bad
+430,Ready Player One ,7.4,6.46,,5.18,,,2018,6.346666666666667,Average
+431,The Conjuring ,7.5,7.22,,6.04,,,2013,6.919999999999999,Good
+432,Click ,6.4,5.56,,4.64,,,2006,5.533333333333332,Average
+433,The Green Mile ,8.6,8.28,,7.1,,,1999,7.993333333333332,Good
+434,Ransom ,6.7,6.3,,5.44,,,1996,6.146666666666667,Average
+435,Godzilla ,5.4,4.3,,3.46,,,1998,4.386666666666667,Bad
+436,Argo ,7.7,7.28,,6.3,,,2012,7.093333333333334,Good
+437,Anger Management ,6.2,5.48,,4.58,,,2003,5.420000000000001,Bad
+438,Chicken Little ,5.7,5.42,,3.66,,,2005,4.926666666666667,Bad
+439,Teenage Mutant Ninja Turtles ,6.7,6.66,,5.86,,,1990,6.406666666666666,Average
+440,Patch Adams ,6.8,6.54,,4.66,,,1998,6.0,Average
+441,The Godfather ,9.2,9.08,,8.7,,,1972,8.993333333333332,Great
+442,Ride Along ,6.1,5.28,,4.32,,,2014,5.233333333333333,Bad
+443,The Incredible Hulk ,6.6,5.0,,4.7,,,2008,5.433333333333334,Bad
+444,Live Free or Die Hard ,7.1,5.76,,5.36,,,2007,6.073333333333333,Average
+445,Wanted ,6.7,5.9,,4.74,,,2008,5.780000000000001,Average
+446,Identity Thief ,5.7,4.88,,4.14,,,2013,4.906666666666666,Bad
+447,Superman ,7.4,7.26,,6.26,,,1978,6.973333333333334,Good
+448,The Rock ,7.4,6.98,,5.92,,,1996,6.766666666666667,Good
+449,Mission: Impossible III ,6.9,6.6,,5.42,,,2006,6.3066666666666675,Average
