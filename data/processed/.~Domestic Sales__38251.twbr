@@ -46,6 +46,9 @@
           <named-connection caption='kyla_processed_data' name='textscan.1shcrsy17o2bt31arbiww0yf1q8x'>
             <connection class='textscan' directory='/Users/kylafriso/Desktop/UBCO Winter 2022-23/Term 2/DATA 301/project-group-group52/data/processed' filename='kyla_processed_data.csv' password='' server='' />
           </named-connection>
+          <named-connection caption='kyla_genres' name='textscan.0f19ewy05aaxq3108blz500ywd3s'>
+            <connection class='textscan' directory='/Users/kylafriso/Desktop/UBCO Winter 2022-23/Term 2/DATA 301/project-group-group52/data/processed' filename='kyla_genres.csv' password='' server='' />
+          </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1shcrsy17o2bt31arbiww0yf1q8x' name='kyla_processed_data.csv' table='[kyla_processed_data#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
@@ -659,6 +662,608 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='kyla_genres' inline='true' name='federated.0in6jd91v6swv11gmbjtk1uykhli' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='kyla_genres' name='textscan.05k28hd159d41718yqsuo19hsstd'>
+            <connection class='textscan' directory='/Users/kylafriso/Desktop/UBCO Winter 2022-23/Term 2/DATA 301/project-group-group52/data/processed' filename='kyla_genres.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.05k28hd159d41718yqsuo19hsstd' name='kyla_genres.csv' table='[kyla_genres#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Title' ordinal='1' />
+            <column datatype='string' name='Distributor' ordinal='2' />
+            <column datatype='real' name='Domestic Sales (in $)' ordinal='3' />
+            <column datatype='real' name='International Sales (in $)' ordinal='4' />
+            <column datatype='real' name='World Sales (in $)' ordinal='5' />
+            <column datatype='string' name='Genre' ordinal='6' />
+            <column datatype='real' name='Runtime (Min)' ordinal='7' />
+            <column datatype='real' name='Imdb Standardized' ordinal='8' />
+            <column datatype='real' name='Letterboxd Standardized' ordinal='9' />
+            <column datatype='real' name='Rateyourmusic Standardized' ordinal='10' />
+            <column datatype='real' name='Average Rating' ordinal='11' />
+            <column datatype='real' name='Worldwide Popularity' ordinal='12' />
+            <column datatype='real' name='Domestic Sales (Log)' ordinal='13' />
+            <column datatype='real' name='International Sales (Log)' ordinal='14' />
+            <column datatype='real' name='World Sales (Log)' ordinal='15' />
+            <column datatype='boolean' name='Family' ordinal='16' />
+            <column datatype='boolean' name='Action' ordinal='17' />
+            <column datatype='boolean' name='Fantasy' ordinal='18' />
+            <column datatype='boolean' name='Western' ordinal='19' />
+            <column datatype='boolean' name='Crime' ordinal='20' />
+            <column datatype='boolean' name='Comedy' ordinal='21' />
+            <column datatype='boolean' name='Biography' ordinal='22' />
+            <column datatype='boolean' name='Sport' ordinal='23' />
+            <column datatype='boolean' name='Adventure' ordinal='24' />
+            <column datatype='boolean' name='War' ordinal='25' />
+            <column datatype='boolean' name='Romance' ordinal='26' />
+            <column datatype='boolean' name='Animation' ordinal='27' />
+            <column datatype='boolean' name='Mystery' ordinal='28' />
+            <column datatype='boolean' name='Sci-Fi' ordinal='29' />
+            <column datatype='boolean' name='Drama' ordinal='30' />
+            <column datatype='boolean' name='Musical' ordinal='31' />
+            <column datatype='boolean' name='Horror' ordinal='32' />
+            <column datatype='boolean' name='Thriller' ordinal='33' />
+            <column datatype='boolean' name='Music' ordinal='34' />
+            <column datatype='boolean' name='History' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.05k28hd159d41718yqsuo19hsstd' name='kyla_genres.csv' table='[kyla_genres#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Title' ordinal='1' />
+            <column datatype='string' name='Distributor' ordinal='2' />
+            <column datatype='real' name='Domestic Sales (in $)' ordinal='3' />
+            <column datatype='real' name='International Sales (in $)' ordinal='4' />
+            <column datatype='real' name='World Sales (in $)' ordinal='5' />
+            <column datatype='string' name='Genre' ordinal='6' />
+            <column datatype='real' name='Runtime (Min)' ordinal='7' />
+            <column datatype='real' name='Imdb Standardized' ordinal='8' />
+            <column datatype='real' name='Letterboxd Standardized' ordinal='9' />
+            <column datatype='real' name='Rateyourmusic Standardized' ordinal='10' />
+            <column datatype='real' name='Average Rating' ordinal='11' />
+            <column datatype='real' name='Worldwide Popularity' ordinal='12' />
+            <column datatype='real' name='Domestic Sales (Log)' ordinal='13' />
+            <column datatype='real' name='International Sales (Log)' ordinal='14' />
+            <column datatype='real' name='World Sales (Log)' ordinal='15' />
+            <column datatype='boolean' name='Family' ordinal='16' />
+            <column datatype='boolean' name='Action' ordinal='17' />
+            <column datatype='boolean' name='Fantasy' ordinal='18' />
+            <column datatype='boolean' name='Western' ordinal='19' />
+            <column datatype='boolean' name='Crime' ordinal='20' />
+            <column datatype='boolean' name='Comedy' ordinal='21' />
+            <column datatype='boolean' name='Biography' ordinal='22' />
+            <column datatype='boolean' name='Sport' ordinal='23' />
+            <column datatype='boolean' name='Adventure' ordinal='24' />
+            <column datatype='boolean' name='War' ordinal='25' />
+            <column datatype='boolean' name='Romance' ordinal='26' />
+            <column datatype='boolean' name='Animation' ordinal='27' />
+            <column datatype='boolean' name='Mystery' ordinal='28' />
+            <column datatype='boolean' name='Sci-Fi' ordinal='29' />
+            <column datatype='boolean' name='Drama' ordinal='30' />
+            <column datatype='boolean' name='Musical' ordinal='31' />
+            <column datatype='boolean' name='Horror' ordinal='32' />
+            <column datatype='boolean' name='Thriller' ordinal='33' />
+            <column datatype='boolean' name='Music' ordinal='34' />
+            <column datatype='boolean' name='History' ordinal='35' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Distributor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Distributor]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Distributor</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic Sales (in $)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic Sales (in $)]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Domestic Sales (in $)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International Sales (in $)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[International Sales (in $)]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>International Sales (in $)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>World Sales (in $)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[World Sales (in $)]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>World Sales (in $)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Runtime (Min)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Runtime (Min)]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Runtime (Min)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Imdb Standardized</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Imdb Standardized]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Imdb Standardized</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Letterboxd Standardized</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Letterboxd Standardized]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Letterboxd Standardized</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rateyourmusic Standardized</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rateyourmusic Standardized]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Rateyourmusic Standardized</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Rating]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Average Rating</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Worldwide Popularity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Worldwide Popularity]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Worldwide Popularity</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domestic Sales (Log)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Domestic Sales (Log)]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Domestic Sales (Log)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>International Sales (Log)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[International Sales (Log)]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>International Sales (Log)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>World Sales (Log)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[World Sales (Log)]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>World Sales (Log)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Family</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Family]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Family</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Action</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Action]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Action</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fantasy</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Fantasy]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Fantasy</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Western</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Western]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Western</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crime</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Crime]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Crime</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Comedy</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Comedy]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Comedy</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Biography</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Biography]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Biography</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sport</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Sport]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Sport</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adventure</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Adventure]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Adventure</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>War</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[War]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>War</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Romance</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Romance]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Romance</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Animation</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Animation]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Animation</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mystery</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Mystery]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Mystery</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sci-Fi</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Sci-Fi]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Sci-Fi</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drama</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Drama]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Drama</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Musical</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Musical]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Musical</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Horror</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Horror]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Horror</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Thriller</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Thriller]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Thriller</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Music</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Music]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>Music</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>History</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[History]</local-name>
+            <parent-name>[kyla_genres.csv]</parent-name>
+            <remote-alias>History</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='kyla_genres.csv' datatype='table' name='[__tableau_internal_object_id__].[kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='kyla_genres.csv' id='kyla_genres.csv_EB775396B4BF40E5B95A740F8BAFDD41'>
+            <properties context=''>
+              <relation connection='textscan.05k28hd159d41718yqsuo19hsstd' name='kyla_genres.csv' table='[kyla_genres#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Title' ordinal='1' />
+                  <column datatype='string' name='Distributor' ordinal='2' />
+                  <column datatype='real' name='Domestic Sales (in $)' ordinal='3' />
+                  <column datatype='real' name='International Sales (in $)' ordinal='4' />
+                  <column datatype='real' name='World Sales (in $)' ordinal='5' />
+                  <column datatype='string' name='Genre' ordinal='6' />
+                  <column datatype='real' name='Runtime (Min)' ordinal='7' />
+                  <column datatype='real' name='Imdb Standardized' ordinal='8' />
+                  <column datatype='real' name='Letterboxd Standardized' ordinal='9' />
+                  <column datatype='real' name='Rateyourmusic Standardized' ordinal='10' />
+                  <column datatype='real' name='Average Rating' ordinal='11' />
+                  <column datatype='real' name='Worldwide Popularity' ordinal='12' />
+                  <column datatype='real' name='Domestic Sales (Log)' ordinal='13' />
+                  <column datatype='real' name='International Sales (Log)' ordinal='14' />
+                  <column datatype='real' name='World Sales (Log)' ordinal='15' />
+                  <column datatype='boolean' name='Family' ordinal='16' />
+                  <column datatype='boolean' name='Action' ordinal='17' />
+                  <column datatype='boolean' name='Fantasy' ordinal='18' />
+                  <column datatype='boolean' name='Western' ordinal='19' />
+                  <column datatype='boolean' name='Crime' ordinal='20' />
+                  <column datatype='boolean' name='Comedy' ordinal='21' />
+                  <column datatype='boolean' name='Biography' ordinal='22' />
+                  <column datatype='boolean' name='Sport' ordinal='23' />
+                  <column datatype='boolean' name='Adventure' ordinal='24' />
+                  <column datatype='boolean' name='War' ordinal='25' />
+                  <column datatype='boolean' name='Romance' ordinal='26' />
+                  <column datatype='boolean' name='Animation' ordinal='27' />
+                  <column datatype='boolean' name='Mystery' ordinal='28' />
+                  <column datatype='boolean' name='Sci-Fi' ordinal='29' />
+                  <column datatype='boolean' name='Drama' ordinal='30' />
+                  <column datatype='boolean' name='Musical' ordinal='31' />
+                  <column datatype='boolean' name='Horror' ordinal='32' />
+                  <column datatype='boolean' name='Thriller' ordinal='33' />
+                  <column datatype='boolean' name='Music' ordinal='34' />
+                  <column datatype='boolean' name='History' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
   </datasources>
   <worksheets>
     <worksheet name='Average Rating'>
@@ -953,11 +1558,15 @@
       <table>
         <view>
           <datasources>
-            <datasource caption='kyla_processed_data' name='federated.099lcs90s5346g1g8guv60160z3h' />
+            <datasource caption='kyla_genres' name='federated.0in6jd91v6swv11gmbjtk1uykhli' />
           </datasources>
-          <datasource-dependencies datasource='federated.099lcs90s5346g1g8guv60160z3h'>
+          <datasource-dependencies datasource='federated.0in6jd91v6swv11gmbjtk1uykhli'>
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
             <column datatype='real' name='[Runtime (Min)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[World Sales (in $)]' role='measure' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
             <column-instance column='[Runtime (Min)]' derivation='Sum' name='[sum:Runtime (Min):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[World Sales (in $)]' derivation='Sum' name='[sum:World Sales (in $):qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <aggregation value='true' />
         </view>
@@ -969,11 +1578,23 @@
             </view>
             <mark class='Automatic' />
           </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0in6jd91v6swv11gmbjtk1uykhli].[sum:Runtime (Min):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0in6jd91v6swv11gmbjtk1uykhli].[sum:World Sales (in $):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
         </panes>
-        <rows />
-        <cols>[federated.099lcs90s5346g1g8guv60160z3h].[sum:Runtime (Min):qk]</cols>
+        <rows>([federated.0in6jd91v6swv11gmbjtk1uykhli].[sum:Runtime (Min):qk] + [federated.0in6jd91v6swv11gmbjtk1uykhli].[sum:World Sales (in $):qk])</rows>
+        <cols>[federated.0in6jd91v6swv11gmbjtk1uykhli].[none:Genre:nk]</cols>
       </table>
-      <simple-id uuid='{49BE715D-23B7-4DDF-9E16-6CD140E2A55B}' />
+      <simple-id uuid='{9CAE7B1E-B629-4700-AA99-F55D83BC727B}' />
     </worksheet>
     <worksheet name='Worldwide Sales'>
       <layout-options>
@@ -1167,7 +1788,7 @@
       <simple-id uuid='{6601EF93-409C-4B18-91A4-45CFD729FC3B}' />
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
+  <windows source-height='51'>
     <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Average Rating'>
@@ -1319,7 +1940,7 @@
           </strip>
         </edge>
       </cards>
-      <simple-id uuid='{CA90E485-DBC8-4542-A969-6A786242CDE8}' />
+      <simple-id uuid='{5BDF2FB6-C586-47AD-B899-A3E0EB105C4C}' />
     </window>
   </windows>
 </workbook>
