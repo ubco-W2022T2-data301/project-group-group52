@@ -23,6 +23,23 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Action Parameter' datatype='boolean' name='[Action Parameter]' param-domain-type='list' role='measure' type='nominal' value='true'>
+        <calculation class='tableau' formula='true' />
+        <members>
+          <member value='true' />
+          <member value='false' />
+        </members>
+      </column>
+      <column caption='Adventure Parameter' datatype='boolean' name='[Adventure Parameter]' param-domain-type='list' role='measure' type='nominal' value='true'>
+        <calculation class='tableau' formula='true' />
+        <members>
+          <member value='true' />
+          <member value='false' />
+        </members>
+      </column>
+    </datasource>
     <datasource caption='kyla_processed_data' inline='true' name='federated.099lcs90s5346g1g8guv60160z3h' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -557,8 +574,40 @@
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
+      <column datatype='boolean' name='[Action]' role='dimension' type='nominal' />
+      <column datatype='boolean' name='[Adventure]' role='dimension' type='nominal' />
+      <column datatype='boolean' name='[Western]' role='dimension' type='nominal' />
       <_.fcp.ObjectModelTableType.true...column caption='kyla_processed_data.csv' datatype='table' name='[__tableau_internal_object_id__].[kyla_processed_data.csv_01EED4EC495E452F9E911595D87B9776]' role='measure' type='quantitative' />
+      <column-instance column='[Action]' derivation='None' name='[none:Action:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Adventure]' derivation='None' name='[none:Adventure:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Western]' derivation='None' name='[none:Western:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (Action,Adventure)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Action:nk]' />
+          <groupfilter function='level-members' level='[none:Adventure:nk]' />
+        </groupfilter>
+      </group>
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Action:nk]&#10;[none:Adventure:nk]' type='palette'>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>false</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>true</bucket>
+            </map-pri>
+          </encoding>
+          <encoding attr='color' field='[none:Western:nk]&#10;[none:Action:nk]&#10;[none:Adventure:nk]' type='palette'>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>false</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>true</bucket>
+            </map-pri>
+          </encoding>
+        </style-rule>
+      </style>
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
       </semantic-values>
@@ -877,11 +926,17 @@
               <lod column='[federated.099lcs90s5346g1g8guv60160z3h].[attr:World Sales (in $):qk]' />
               <lod column='[federated.099lcs90s5346g1g8guv60160z3h].[attr:Average Rating:qk]' />
             </encodings>
-            <trendline enable-confidence-bands='true' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <trendline enable-confidence-bands='true' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear'>
+              <excluded-factors>
+                <column>[federated.099lcs90s5346g1g8guv60160z3h].[none:Mystery:nk]</column>
+              </excluded-factors>
+            </trendline>
             <style>
               <style-rule element='mark'>
                 <format attr='size' value='0.53773480653762817' />
                 <format attr='mark-color' value='#219089' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
               </style-rule>
               <style-rule element='trendline'>
                 <format attr='stroke-color' value='#053b4bdb' />
@@ -893,6 +948,32 @@
         <cols>[federated.099lcs90s5346g1g8guv60160z3h].[sum:Runtime (Min):qk]</cols>
       </table>
       <simple-id uuid='{A341ACEB-518F-4B53-85D3-B57107896E46}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='kyla_processed_data' name='federated.099lcs90s5346g1g8guv60160z3h' />
+          </datasources>
+          <datasource-dependencies datasource='federated.099lcs90s5346g1g8guv60160z3h'>
+            <column datatype='real' name='[Runtime (Min)]' role='measure' type='quantitative' />
+            <column-instance column='[Runtime (Min)]' derivation='Sum' name='[sum:Runtime (Min):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.099lcs90s5346g1g8guv60160z3h].[sum:Runtime (Min):qk]</cols>
+      </table>
+      <simple-id uuid='{49BE715D-23B7-4DDF-9E16-6CD140E2A55B}' />
     </worksheet>
     <worksheet name='Worldwide Sales'>
       <layout-options>
@@ -986,35 +1067,39 @@
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
       <style>
         <style-rule element='dash-title'>
-          <format attr='border-style' value='solid' />
           <format attr='border-color' value='#d4d4d4' />
+          <format attr='border-width' value='0' />
+          <format attr='border-style' value='none' />
         </style-rule>
       </style>
       <size sizing-mode='automatic' />
       <zones>
         <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone h='40607' id='8' name='Worldwide Sales' show-caption='true' w='29315' x='468' y='7521'>
+          <zone h='44030' id='8' name='Worldwide Sales' show-caption='true' w='29491' x='468' y='7521'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
               <format attr='border-width' value='0' />
               <format attr='margin' value='4' />
+              <format attr='padding' value='4' />
             </zone-style>
           </zone>
-          <zone h='47593' id='9' name='Average Rating' show-caption='true' w='29315' x='468' y='51551'>
+          <zone h='47593' id='9' name='Average Rating' show-caption='true' w='29491' x='468' y='51551'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
               <format attr='border-width' value='0' />
               <format attr='margin' value='4' />
+              <format attr='padding' value='4' />
             </zone-style>
           </zone>
-          <zone h='70971' id='12' name='Popularity' show-caption='true' w='69749' x='29783' y='7521'>
+          <zone h='70971' id='12' name='Popularity' show-caption='true' w='69573' x='29959' y='7521'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
               <format attr='border-width' value='0' />
               <format attr='margin' value='4' />
+              <format attr='padding' value='4' />
             </zone-style>
           </zone>
           <zone forceUpdate='true' h='6665' id='14' type-v2='text' w='99064' x='468' y='856'>
@@ -1028,15 +1113,7 @@
               <format attr='margin' value='4' />
             </zone-style>
           </zone>
-          <zone h='20652' id='15' type-v2='text' w='69749' x='29783' y='78492'>
-            <zone-style>
-              <format attr='border-color' value='#000000' />
-              <format attr='border-style' value='none' />
-              <format attr='border-width' value='0' />
-              <format attr='margin' value='4' />
-            </zone-style>
-          </zone>
-          <zone h='3423' id='16' type-v2='empty' w='29315' x='468' y='48128'>
+          <zone h='20652' id='15' type-v2='text' w='69573' x='29959' y='78492'>
             <zone-style>
               <format attr='border-color' value='#000000' />
               <format attr='border-style' value='none' />
@@ -1091,7 +1168,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='dashboard' maximized='true' name='Dashboard 1'>
+    <window class='dashboard' name='Dashboard 1'>
       <viewpoints>
         <viewpoint name='Average Rating'>
           <zoom type='entire-view' />
@@ -1103,7 +1180,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='9' />
+      <active id='15' />
       <simple-id uuid='{E4C5CCBA-23F6-4CCB-AF2D-2B43E95D1F28}' />
     </window>
     <window class='worksheet' name='Domestic Sales'>
@@ -1220,6 +1297,29 @@
         </edge>
       </cards>
       <simple-id uuid='{DF760C69-593D-46F5-ACC0-FC2BE5C9BE15}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CA90E485-DBC8-4542-A969-6A786242CDE8}' />
     </window>
   </windows>
 </workbook>
