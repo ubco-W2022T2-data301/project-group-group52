@@ -11,12 +11,14 @@ Internationally. His EDA, however, revealed that the popularity of genres remain
 <br />
 
 ![Figure 1](/images/EDA1.png)
-<font size = 2><b>Figure 1.</b></font>
+
+<font size = 2><b>Figure 1. Most Popular Films Domestically by Genre</b></font>
 
 <br />
 
 ![Figure 2](/images/EDA2.png)
-<font size = 2><b>Figure 2.</b></font>
+
+<font size = 2><b>Figure 2. Most Popular Films Internationally by Genre</b></font>
 
 <br />
 
@@ -25,12 +27,14 @@ Kyla’s initial research question asked whether shorter or longer films were mo
 <br />
 
 ![Figure 3](/images/EDA3.png)
-<font size = 2><b>Figure 3.</b></font>
+
+<font size = 2><b>Figure 3. World Sales vs. Runtime</b></font>
 
 <br />
 
 ![Figure 4](/images/EDA4.png)
-<font size = 2><b>Figure 4.</b></font>
+
+<font size = 2><b>Figure 4. Average Rating vs. Runtime</b></font>
 
 <br />
 
@@ -40,12 +44,13 @@ In his preliminary analysis, Cody sought to explore the relationship between the
 
 ![Figure 5](/images/EDA5.png)
 
-<font size = 2><b>Figure 5.</b></font>
+<font size = 2><b>Figure 5. IMDb Ratings vs. Rate My Music Ratings</b></font>
 
 <br />
 
 ![Figure 6](/images/EDA6.png)
-<font size = 2><b>Figure 6.</b></font>
+
+<font size = 2><b>Figure 6. Weighted Rating out of 10 for Top 450 Movies</b></font>
 
 <br />
 
