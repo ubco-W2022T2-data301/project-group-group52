@@ -5,6 +5,48 @@ Our group decided to focus our research questions on movies. We chose this topic
 
 # Exploratory Data Analysis
 
+Initially, Avi intended to analyze how the popularity of genres differed domestically versus
+Internationally. His EDA, however, revealed that the popularity of genres remains relatively consistent among domestic and international audiences, as Figures 1 and 2 demonstrate. Therefore, Avi concluded that his initial research question was too limited and needed to be expanded. He refined his research question to instead explore how to the popularity of genres change over time.
+
+<br />
+
+![Figure 1](/images/EDA1.png)
+<font size = 2><b>Figure 1.</b></font>
+
+<br />
+
+![Figure 2](/images/EDA2.png)
+<font size = 2><b>Figure 2.</b></font>
+
+<br />
+
+Kyla’s initial research question asked whether shorter or longer films were more popular in terms of sales and ratings. The preliminary graphs showed there was a consistent positive trend between runtime versus sales (domestic, international, and worldwide) and runtime versus ratings (Figures 3, 4). At the time the EDA was performed, however, the dataset of ratings was incomplete, and the observed trend was based on limited datapoints. Although the research question did not require refinement, the analysis required more in-depth statistics to confirm whether the apparent positive trend was statistically significant. Finally, Kyla decided that a popularity score should be added which incorporates sales and ratings together, such that the effect of runtime on popularity could be more clearly analyzed.
+
+<br />
+
+![Figure 3](/images/EDA3.png)
+<font size = 2><b>Figure 3.</b></font>
+
+<br />
+
+![Figure 4](/images/EDA4.png)
+<font size = 2><b>Figure 4.</b></font>
+
+<br />
+
+In his preliminary analysis, Cody sought to explore the relationship between the quality and popularity of a movie, as well as the relationship between the quality and release date of a movie. His EDA revealed that different websites differ in their tendencies in ratings amongst their user bases. As Figure 5 shows, on average, IMDb users tend to rate movies higher than Rate Your Music users. Cody also found that the majority of movies in the selected dataset are of average and good quality and usually fall within a narrow range between around 6 and 7, out of a 0-10 scale (Figure 6). As with Kyla, Cody’s research question did not need much refinement but rather required further data manipulation and statistical analysis.
+
+<br />
+
+![Figure 5](/images/EDA5.png)
+
+<font size = 2><b>Figure 5.</b></font>
+
+<br />
+
+![Figure 6](/images/EDA6.png)
+<font size = 2><b>Figure 6.</b></font>
+
 <br />
 
 # Results and Discussion
