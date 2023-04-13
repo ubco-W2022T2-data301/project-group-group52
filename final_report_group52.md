@@ -9,7 +9,7 @@ Our group decided to focus our research questions on movies. We chose this topic
 
 <br />
 
-Popularity is an amorphous term that can have multiple different metrics through which it can be measured. I decided to measure the popularity of genres through how much money they earned and how frequently they appeared in movies. The dataset we chose has a column that lists the genres of every movie in the set, through counting how many times a specific genre was repeated throughtout the dataset and then correlating it with the year I was able to find out the relative frequency of the genre, or how often a movie was released in a year that included the genre. I used this relative frequency as one measure of popularity to find the most popular genre. [You can find the full analysis notebook here, including the code and the data here.](analysis\analysis1.ipynb)
+Popularity is an amorphous term that can have multiple different metrics through which it can be measured. I decided to measure the popularity of genres through how much money they earned and how frequently they appeared in movies. The dataset we chose has a column that lists the genres of every movie in the set, through counting how many times a specific genre was repeated throughtout the dataset and then correlating it with the year I was able to find out the relative frequency of the genre, or how often a movie was released in a year that included the genre. I used this relative frequency as one measure of popularity to find the most popular genre. [You can find the full analysis notebook here, including the code and the data here.](analysis/analysis1.ipynb)
 
 <br />
 
@@ -61,7 +61,7 @@ Linear regression found significant positive correlations between all variable p
 
 Two confounding variables considered were genre and distributor. Longer runtime may be correlated with certain genres or distributors, which in turn were more popular. Although box plots were produced for a base level assessment, the scope of this analysis did not allow for in-depth statistical analysis to test for confounding correlations between runtime and genre or distributor. Therefore, this analysis was unable to determine with certainty whether the positive correlations observed between popularity and runtime were the result of confounding variables.
 
-[You can find the full analysis notebook here, including the code and the data here.](analysis\analysis2.ipynb)
+[You can find the full analysis notebook here, including the code and the data here.](analysis/analysis2.ipynb)
 
 <br />
 
