@@ -17,7 +17,7 @@ The dataset we chose is about the the top 1000 highest-grossing Hollywood films.
 ## Team Members
 
 - Avi Pradhan: I love watching movies of all genres and have been consistently going to the cinemas to watch movies since my childhood.
-- Person 2: one sentence about you!
+- Kyla Friso: My favorite movie genres are thrillers, true crime, and war films, specifically World War II.
 - Cody Deleurme: I'm an avid cinephile who keeps a spreadsheet of every (400+ as of right now) movie I've watched with my personal rating.
 
 ## Images
