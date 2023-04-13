@@ -11,8 +11,6 @@ Our group decided to focus our research questions on movies. We chose this topic
 
 ## Question 1: **How have the relative frequencies of different movie genres changed over time? Are there certain genres that have become more or less popular over the past few decades?**
 
-<br />
-
 Popularity is an amorphous term that can have multiple different metrics through which it can be measured. I decided to measure the popularity of genres through how much money they earned and how frequently they appeared in movies. The dataset we chose has a column that lists the genres of every movie in the set, through counting how many times a specific genre was repeated throughtout the dataset and then correlating it with the year I was able to find out the relative frequency of the genre, or how often a movie was released in a year that included the genre. I used this relative frequency as one measure of popularity to find the most popular genre. [You can find the full analysis notebook here, including the code and the data here.](analysis/analysis1.ipynb)
 
 <br />
@@ -34,8 +32,6 @@ I had the same thought process for this method and decided to graph the top 5 mo
 <br />
 
 ## Question 2: **Does the length of a film affect its popularity, as assessed by sales and ratings?**
-
-<br />
 
 The second question our project addressed was: "Does the length of a film affect its popularity, as assessed by sales and ratings?" In order to answer this question, our main dataset - which provided domestic, international, and worldwide sales for each film - was supplemented by our own dataset containing ratings for each film. This dataset was filled manually and pulled ratings from three sites - IMDb, Letterboxd, and Rate Your Music. Based on the size of the later dataset, 450 films were used for this analysis. The ratings from these sites were standardized to percentages and averaged to calculate the average rating for each film. The worldwide popularity of each film was then calculated based on worldwide sales and average rating, as the following equation describes: (0.5)(world sales/maximum world sales) + (0.5)(average rating).
 
@@ -77,8 +73,6 @@ Two confounding variables considered were genre and distributor. Longer runtime 
 
 ## Question 3: **Does a movie's popularity correlate with its quality?**
 
-<br />
-
 In [Cody's analysis](https://github.com/ubco-W2022T2-data301/project-group-group52/blob/main/analysis/analysis3.ipynb), we examined two research questions. The first question was "Does a movie's popularity correlate with it's quality?" In this analysis, Cody used a weighted rating score taken as an average of a movie's IMDb, Letterboxd, and Rateyourmusic adjusted rating. He then separated movies into 'bad', 'average', 'good', and 'great' categories based on that weighted score. The baseline score which was used to define 'average' was a 6/10 movie. Two key visualizations which were utilized to answer this question were a boxplot of weighted rating and a histogram of movie quality.
 
 <br />
@@ -108,8 +102,6 @@ From this graph, we can see that 'good' and 'average' movies are the most freque
 <br />
 
 ## Question 4: **Does a movie's release year correlate with its quality?**
-
-<br />
 
 The second research question was "Does a movie's release year correlate with its quality?" This question was simpler to answer. Initially, it seemed that there was a correlation between release year and quality, however these older years tended to have significantly fewer observations. A filter was applied to only account for years with a large amount of observations (2000-2021), and this scatterplot was obtained. 
 
