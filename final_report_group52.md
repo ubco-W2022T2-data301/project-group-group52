@@ -3,7 +3,15 @@ Our group decided to focus our research questions on movies. We chose this topic
 
 # Exploratory Data Analysis
 
+Introduction
 
+Exploratory Data Analysis
+
+Question 1
+
+Question 2
+
+Question 3 
 ## Question 1: **How have the relative frequencies of different movie genres changed over time? Are there certain genres that have become more or less popular over the past few decades?**
 Popularity is an amorphous term that can have multiple different metrics through which it can be measured. I decided to measure the popularity of genres through how much money they earned and how frequently they appeared in movies. The dataset we chose has a column that lists the genres of every movie in the set, through counting how many times a specific genre was repeated throughtout the dataset and then correlating it with the year I was able to find out the relative frequency of the genre, or how often a movie was released in a year that included the genre. I used this relative frequency as one measure of popularity to find the most popular genre.
 ![Relative frequency graph](images/avi_relativefreq_top5_movies.png)
