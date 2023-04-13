@@ -12,7 +12,7 @@ In this visualization, we can see that the midpoint is significantly higher than
 
 This seems to imply that popular movies tend to be of higher quality than average movies. To further demonstrate this, we can see this histogram of the frequency of movie quality.
 
-![Frequency Distribution of Movie Quality](images/cody_final_analysis/quality dist.JPG)
+![Frequency Distribution of Movie Quality](images/cody_final_analysis/quality_dist.JPG)
 
 From this graph, we can see that 'good' and 'average' movies are the most frequent. 'Bad' movies are significantly rarer, with 'great' movies being an outlier. From these visualizations as well as the deeper analysis, we concluded that popular movies tend to be rated higher than the average movie, but the correlation between popularity and 'great' movies is not that strong. In other words, we can expect a popular movie to be above average or even good, but not necessarily amazing.
 
